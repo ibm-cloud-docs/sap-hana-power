@@ -1,0 +1,51 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sap-hana-power" category="compute" audience="compute" href="/docs/sap-hana-power?topic=sap-hana-power-getting-started" product-page="https://www.ibm.com/cloud/power-virtual-server" path="sap-hana-power"}
+SAP HANA on IBM Power Systems Virtual Servers
+
+    {: .navgroup id="learn"}
+    hana-power-index.md
+    hana-power-about-power-systems-virtual-server-sh.md
+    hana-power-general-iaas-concepts.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Planning
+        hana-power-planning-your-system-landscape.md
+        hana-power-considerations.md
+        hana-power-get-credentials.md
+        hana-power-review-doc.md
+        hana-power-determine-apps.md
+        hana-power-byol-os.md
+        hana-power-byol.md
+        hana-power-size-server.md
+        hana-power-configuring-ha.md
+        hana-power-determine-configuration.md
+
+    {: .topicgroup}
+    Provisioning
+        hana-power-provision-environment.md
+
+    {: .topicgroup}
+    Managing
+        hana-power-manage-environment.md
+        hana-power-check-system-readiness.md
+
+        {: .topicgroup}
+        Configuring your system for SAP NetWeaver workloads
+            hana-power-configure-workload.md
+            hana-power-create-file-systems.md
+
+        hana-power-configure-access.md
+        hana-power-manage-order-storage.md
+        hana-power-download-and-install.md
+        hana-power-create-license-key.md
+        hana-power-monitoring.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    hana-power-faqs.md
+    hana-power-support.md
+    {: .navgroup-end}
