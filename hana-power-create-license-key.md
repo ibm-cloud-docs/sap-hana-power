@@ -20,7 +20,7 @@ subcollection: sap-hana-power
 # Creating an SAP license key
 {: #create_key}
 
-Licensing for {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}} is the same as on-premises licensing.
+Licensing for {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s is the same as on-premises licensing.
 {: shortdesc}
 
 ## Next Steps

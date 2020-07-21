@@ -26,10 +26,10 @@ IBM and SAP have been teaming, partnering, and collaborating in areas that inclu
 
 It's because of this relationship, and other {{site.data.keyword.cloud_notm}} capabilities that {{site.data.keyword.IBM_notm}} was selected as one of SAP's premier strategic providers of cloud infrastructure services for its business-critical applications. Support for SAP suite of solutions is available through the highly scalable, open, and security-rich {{site.data.keyword.cloud_notm}}. With this partnership, SAP HANA-based solutions can expand to major markets made possible by more than 60 {{site.data.keyword.IBM_notm}} data centers worldwide.
 
-## SAP HANA on IBM Power Systems Virtual Server colocated and connected with the IBM Cloud offering model
+## SAP HANA on IBM Power Systems Virtual Servers
 {: #power-offering-model}
 
-The offering is ideal for practically all SAP HANA use case scenarios on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud_notm}} over the {{site.data.keyword.cloud_notm}} network. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP HANA-based products are supported on {{site.data.keyword.powerSys_notm}}. For support requirements, see [SAP Note 2923984](https://launchpad.support.sap.com/#/notes/2923984){: external}. For more support questions, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
+The offering is ideal for practically all SAP HANA use case scenarios on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP HANA-based products are supported on {{site.data.keyword.powerSys_notm}}s. For support requirements, see [SAP Note 2923984](https://launchpad.support.sap.com/#/notes/2923984){: external}. For more support questions, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
 
 
 ### Data centers
@@ -37,15 +37,15 @@ The offering is ideal for practically all SAP HANA use case scenarios on {{site.
 
 With data centers across North and South America, Europe, Asia, and Australia, you can provision cloud resources where (and when) you need them. Each data center is connected to the {{site.data.keyword.cloud_notm}} global private network, making data transfers faster and more efficient anywhere in the world. For more information about {{site.data.keyword.cloud_notm}} data centers and points of presence (PoPs), see [Data Centers](https://www.ibm.com/cloud/data-centers/){: external}.
 
-### {{site.data.keyword.powerSys_notm}}
+### {{site.data.keyword.powerSys_notm}}s
 {: #power-system-servers}
 
-{{site.data.keyword.powerSys_notm}} are an IaaS offering that you can use to deploy a virtual server, also known as a logical partition (LPAR), in a matter of minutes. IBM Power Systems clients who have typically relied upon on-premises-only infrastructure can now quickly and economically extend their Power IT resources into the cloud.  {{site.data.keyword.cloud_notm}} integrates your SUSE Linux&reg; Enterprise Server (SLES) 12 SP4 capabilities into the {{site.data.keyword.cloud_notm}} experience to meet your specific business needs. You get fast, self-service provisioning, flexible management both on-premises and off, and access to a stack of enterprise {{site.data.keyword.cloud_notm}} services – all with pay-as-you-use billing that makes it easier for you to scale up and out.
+{{site.data.keyword.powerSys_notm}}s are an IaaS offering that you can use to deploy a virtual server, also known as a logical partition (LPAR), in a matter of minutes. IBM Power Systems clients who have typically relied upon on-premises-only infrastructure can now quickly and economically extend their Power IT resources into the cloud.  {{site.data.keyword.cloud_notm}} integrates your SUSE Linux&reg; Enterprise Server (SLES) 12 SP4 capabilities into the {{site.data.keyword.cloud_notm}} experience to meet your specific business needs. You get fast, self-service provisioning, flexible management both on-premises and off, and access to a stack of enterprise {{site.data.keyword.cloud_notm}} services – all with pay-as-you-use billing that makes it easier for you to scale up and out.
 
 ## Deployment and management
 {: #deployment-and-management}
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.powerSys_notm}} are deployed through the {{site.data.keyword.cloud_notm}} console or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the console, API, or command-line interface (CLI). More information can be found under [Managing {{site.data.keyword.powerSys_notm}} (IAM)](/docs/power-iaas?topic=power-iaas-managing-resources-and-users).
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.powerSys_notm}}s are deployed through the {{site.data.keyword.cloud_notm}} console or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the console, API, or command-line interface (CLI). More information can be found under [Managing {{site.data.keyword.powerSys_notm}}s (IAM)](/docs/power-iaas?topic=power-iaas-managing-resources-and-users).
 
 ## Support
 {: #concept-support}

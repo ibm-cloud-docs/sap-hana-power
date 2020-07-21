@@ -32,7 +32,7 @@ The options influence your server choice. You might want to distribute your work
 ## Network configuration
 {: #network-config}
 
-Ensure that you have a working network Direct Link connection between the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocation and {{site.data.keyword.cloud}} or your on-premises networks. This connection is required for management and for access to your SAP applications. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
+Ensure that you have a working network Direct Link connection between the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s data centers and {{site.data.keyword.cloud}} or your on-premises networks. This connection is required for management and for access to your SAP applications. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
 
 ## Storage configuration
 {: #storage_config}

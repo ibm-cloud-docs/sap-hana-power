@@ -21,7 +21,7 @@ subcollection: sap-hana-power
 # Setting up your Power Systems Virtual Server instances
 {: #provision_environment}
 
-The guidance for setting up your SAP HANA-certified {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}}, including data volume and operating system (OS), is in the following sections.
+The guidance for setting up your SAP HANA-certified {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}, including data volume and operating system (OS), is in the following sections.
 {:shortdesc}
 
 ## Before you begin
@@ -51,7 +51,7 @@ Do the following steps to configure your {{site.data.keyword.powerSys_notm}} ser
 
 1. Add an SSH key to securely connect to your {{site.data.keyword.powerSys_notm}}. For more information, see [Adding an SSH key](/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key).
 1.	Configure the private network subnets that will be used for the SAP workload. For more information, see [Configuring and adding a private network subnet](/docs/power-iaas?topic=power-iaas-configuring-subnet).
-1. Open a support ticket to connect your private networks to {{site.data.keyword.dl_full}} on classic connection. Provide information about the private network (network name, CIDR, colocation name) in the ticket.
+1. Open a support ticket to connect your private networks to {{site.data.keyword.dl_full}} on classic connection. Provide information about the private network (network name, CIDR) in the ticket.
 1.	If required, create more management systems (for example, OS update server, time server, jump server).
 1.	If required, configure {{site.data.keyword.dl_full}} to {{site.data.keyword.cloud}} classic or to on-premises networks. 
 
@@ -62,7 +62,7 @@ Do the following steps to create a new {{site.data.keyword.powerSys_notm}} insta
 
 1. Highlight your provisioned {{site.data.keyword.powerSys_notm}} service from the Resources list and click **New Instance**.
 1. Enter a **Name**, which is a permanent or temporary name for your servers and enter the **Number of instances** to be provisioned. Be aware that more options will appear if you enter more than one instance. See [Creating a {{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server) for option details.
-1. Specify a VM-pinning rule. You can choose to soft pin or hard pin a VM to the host where it is running. When you soft pin a VM for high availability, PowerVC that runs in the background automatically migrates the VM back to the original host when the host is back to its operating state. If the VM has a licensing restriction with the host, the hard pin option restricts the movement of the VM during maintenance. The default pinning policy is none. Choose soft pin for {{site.data.keyword.powerSys_notm}} hosting SAP HANA.
+1. Specify a VM-pinning rule. You can choose to soft pin or hard pin a VM to the host where it is running. When you soft pin a VM for high availability, PowerVC that runs in the background automatically migrates the VM back to the original host when the host is back to its operating state. If the VM has a licensing restriction with the host, the hard pin option restricts the movement of the VM during maintenance. The default pinning policy is none. Choose soft pin for {{site.data.keyword.powerSys_notm}}s hosting SAP HANA.
 1. Select your **SSH key**.
 4. Select **SLES for SAP (HANA) – Client supplied subscription** for the operating system, and select the version of one of the {{site.data.keyword.IBM_notm}}-provided Linux stock images.
 6. Select a profile with the number of CPU cores and memory (RAM) that fits the size of your SAP HANA database. You can choose one of the popular profile configurations, or select a profile from a list of all profiles that best suits your needs. To view all available profiles, click **View all profiles** on the provisioning page.

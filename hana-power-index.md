@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-17"
+lastupdated: "2020-07-21"
 
 keywords: SAP HANA, {{site.data.keyword.cloud_notm}}, SAP-certified {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.powerSysShort}}, {{site.data.keyword.powerSys_notm}}
 
@@ -21,7 +21,7 @@ subcollection: sap-hana-power
 # Getting started with SAP HANA on IBM Power Systems Virtual Servers
 {: #getting-started}
 
-{{site.data.keyword.IBM}} and SAP continue a collaboration since the early 1970s in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP HANA-based applications on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}}.
+{{site.data.keyword.IBM}} and SAP continue a collaboration since the early 1970s in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP HANA-based applications on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s.
 {: shortdesc}
 
 This content provides you with recommendations for the provisioning and installation of the infrastructure to support SAP HANA-based products and subscription on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s. It does not replace any SAP HANA implementation-related documentation. Its purpose is to help you with infrastructure planning and provisioning so you can begin your SAP installation. The SAP HANA installation does not vary from installations for on-premises environments. Recommendations and guidelines are provided to help you operate your SAP system in the {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} environment.
@@ -51,15 +51,15 @@ Table 1 contains information that will help you with your implementation.
 
 Before you create a virtual server, you must understand the terminology that is associated with a {{site.data.keyword.powerSys_notm}}.
 
-### {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} colocated and connected with {{site.data.keyword.cloud_notm}} versus {{site.data.keyword.cloud}} classic infrastructure
+### {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s versus {{site.data.keyword.cloud}} classic infrastructure
 {: #cloud-vs-classic}
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s are located in the same data centers as the Intel-based {{site.data.keyword.cloud_notm}} servers, which are referred to as {{site.data.keyword.cloud}} classic infrastructure. In the data centers, the {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s are separated from the rest of the {{site.data.keyword.cloud_notm}} servers in separate rooms (colocated) with separate networks and fiber-channel attached storage. There are predefined connections to the {{site.data.keyword.cloud_notm}} so that {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s are accessible through the internet. The internal networks are fenced and can be connected to the outside (classic infrastructure or on-premises environments) through {{site.data.keyword.dlc_full}}. In the following content, if {{site.data.keyword.cloud_notm}} is referenced in the context of {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s, then it is always meant as {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s colocated and connected with {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s is a Power Systems infrastructure as a service (IaaS) offering. {{site.data.keyword.powerSys_notm}}s are located in the same {{site.data.keyword.IBM_notm}} data centers as the Intel-based {{site.data.keyword.cloud_notm}} servers, which are referred to as {{site.data.keyword.cloud}} classic infrastructure. In the data centers, the {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s are separated from the rest of the {{site.data.keyword.cloud_notm}} servers with separate networks and storage. The internal networks are fenced and can be connected to the outside (classic infrastructure or on-premises environments) through {{site.data.keyword.dlc_full}}.
 
 ### Resource versus resource group
 {: resource-versus-group}
 
-A **resource**, for the context of {{site.data.keyword.powerSys_notm}} is not a user, it's anything that you can create from the catalog. For example, a {{site.data.keyword.powerSys_notm}}. A **resource group** contains multiple resources, for example, a set of servers used strictly for development activities. For more information, see [What is a resource?](/docs/resources?topic=resources-resource).
+A **resource** in the context of {{site.data.keyword.powerSys_notm}}s is not a user, it's anything that you can create from the catalog, for example, a {{site.data.keyword.powerSys_notm}}. A **resource group** contains multiple resources, for example, a set of servers used strictly for development activities. For more information, see [What is a resource?](/docs/resources?topic=resources-resource).
 
 ### Service versus instance
 {: #service-versus-instance}

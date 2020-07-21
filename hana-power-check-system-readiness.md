@@ -25,7 +25,7 @@ subcollection: sap-hana-power
 After you provision your new {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} for SAP HANA, ensure that the memory NUMA (non-uniform memory access) configuration is correct and supported for the SAP HANA workload. 
 {: shortdesc}
 
-Memory NUMA configuration is not supported by SAP HANA when {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} is deployed on a physical server where most of the CPUs and memory are already allocated.
+Memory NUMA configuration is not supported by SAP HANA when {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}}s are deployed on a physical server where most of the CPUs and memory are already allocated.
 
 You can run a Python script on Linux&reg; to see whether the infrastructure is set up correctly. Download the script from [SAP Note 2923962](https://launchpad.support.sap.com/#/notes/2923962){: external} and run the script on the command line (without any parameters). First, add the execution permissions to the script file. For example, download the script to the `/root` location and run as follows:
 

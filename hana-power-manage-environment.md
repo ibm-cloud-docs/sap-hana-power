@@ -20,7 +20,7 @@ subcollection: sap-hana-power
 # Managing your SAP HANA environment
 {: #manage_environment}
 
-Managing your environment for {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}} includes configuring the operating system for SAP HANA, ordering more resources and software, and downloading and installing your SAP software and applications. Management tasks require experience in the area of Linux&reg; network and storage administration.
+Managing your environment for {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s includes configuring the operating system for SAP HANA, ordering more resources and software, and downloading and installing your SAP software and applications. Management tasks require experience in the area of Linux&reg; network and storage administration.
 {:shortdesc}
 
 ## Before you begin

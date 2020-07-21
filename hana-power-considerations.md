@@ -49,7 +49,7 @@ Depending on your selected network option, you will need one or more of the foll
 #### Private network
 {: #network_connectivity_private}
 
-A private network is required for the connection of your virtual instances with systems outside of the colocation and for communication between multiple instances in an SAP three-tier system. This is an internal network that can be used to connect individual {{site.data.keyword.powerSys_notm}}s with each other.
+A private network is required for the connection of your virtual instances with systems outside of the {{site.data.keyword.IBM_notm}} data centers and for communication between multiple instances in an SAP three-tier system. This is an internal network that can be used to connect individual {{site.data.keyword.powerSys_notm}}s with each other.
 
 #### Public network
 {: #network_connectivity_public}
@@ -65,7 +65,7 @@ Other ports are blocked and can be routed through SSH. For security reasons, usi
 #### IBM Cloud Direct Link
 {: #network_connectivity_direct_link}
 
-{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}} with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA. {{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
+{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}}s with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA. {{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
 
 ### Network requirements for SAP
 {: #network_requirements_sap}
@@ -80,7 +80,7 @@ In the simplest scenario, there could be one private network for all purposes.
 #### Internal network for communication between multiple instances in SAP three-tier systems
 {: #internal_network_three_tier}
 
-You must provision your {{site.data.keyword.powerSys_notm}}s with at least one separate private network. Private networks are used for the connection of your virtual instances with systems outside of the {{site.data.keyword.powerSys_notm}} network and for communication between multiple instances in SAP three-tier systems. Create a private network as described in [Configuring and adding a private network subnet](/docs/power-iaas?topic=power-iaas-configuring-subnet).
+You must provision your {{site.data.keyword.powerSys_notm}}s with at least one separate private network. Private networks are used for the connection of your virtual instances with systems outside of the {{site.data.keyword.powerSys_notm}}s network and for communication between multiple instances in SAP three-tier systems. Create a private network as described in [Configuring and adding a private network subnet](/docs/power-iaas?topic=power-iaas-configuring-subnet).
 
 You can provision your {{site.data.keyword.powerSys_notm}}s with a public network interface. Carefully consider the security aspects because ports 443, 80, and 22 are open. A public interface is not required for SAP. 
 

@@ -44,13 +44,13 @@ While the sizing method might be considered conservative, consider the fact that
 
 After you determine your SAP applications and the SAPS numbers are calculated through the SAP Quick Sizer, or based on your current landscape, you are ready to choose a server. Currently, e980 is the only supported server type. The list of supported server types will be extended in [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850).
 
-## Mapping CPUs derived from SAPS to instance profiles in a {{site.data.keyword.powerSys_notm}} environment
+## Mapping CPUs derived from SAPS to instance profiles in a {{site.data.keyword.powerSys_notm}}s environment
 {: #mapping-cpus}
 
 The SAPS results from the sizing, and the choice of the server results in the number of CPUs and memory size that are required to support your workload. The number of CPUs and memory are grouped into instance profiles that are certified for the SAP HANA workload. To find certified profiles, see [Find Certified IaaS Platforms](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/iaas.html){: external}.
 
 * [Click here](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/iaas.html#categories=IBM%20Cloud){: external} to find certified profiles for {{site.data.keyword.cloud}}.
-* [Click here](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: external} to find certified profiles for {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}}. 
+* [Click here](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: external} to find certified profiles for {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}}s. 
 
 When you create a {{site.data.keyword.powerSys_notm}} by using the {{site.data.keyword.cloud}} console, you select an instance profile with a predefined number of CPUs and memory size that suits your workload. While your data must fit into the instance memory, choosing an instance profile with more CPUs improves performance. For more information, see [Creating a {{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server).
 
@@ -58,7 +58,7 @@ When you create a {{site.data.keyword.powerSys_notm}} by using the {{site.data.k
 ## Migrating an existing SAP system
 {: #migrating}
 
-If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.powerSys_notm}} environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results](https://www.sap.com/about/benchmark.html){: external}.
+If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.powerSys_notm}}s environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results](https://www.sap.com/about/benchmark.html){: external}.
 
 ## For more information
 {: #more_info}

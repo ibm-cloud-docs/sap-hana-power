@@ -24,7 +24,7 @@ subcollection: sap-hana-power
 # What is a Power Systems Virtual Server?
 {: #about-virtual-server}
 
-{{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s are colocated and connected with {{site.data.keyword.cloud}}. {{site.data.keyword.powerSys_notm}}s, also known as logical partitions (LPAR), run on IBM Power Systems hardware with the PowerVM hypervisor.
+{{site.data.keyword.powerSys_notm}}s, also known as logical partitions (LPAR), run on IBM Power Systems hardware with the PowerVM hypervisor.
 {:shortdesc}
 
 {{site.data.keyword.powerSysShort}}s are a form of infrastructure as a service (IaaS). With the {{site.data.keyword.powerSys_notm}} service, you can quickly create and deploy one or more virtual servers that are running Linux&reg; operating systems. After you provision the virtual server, it is your responsibility to make sure that your operating system is secure.
@@ -60,7 +60,7 @@ You can configure and customize the following options when you create a {{site.d
 ## Hardware specifications
 {: #hardware-specifications}
 
-SAP HANA on {{site.data.keyword.powerSys_notm}} is hosted on IBM Power System E980 (9080-M9S). For more information about these systems and how they're used inside the {{site.data.keyword.powerSys_notm}} service, see their data sheets and the hardware overview table. 
+SAP HANA on {{site.data.keyword.powerSys_notm}}s is hosted on IBM Power System E980 (9080-M9S). For more information about these systems and how they're used inside the {{site.data.keyword.powerSys_notm}} service, see their data sheets and the hardware overview table. 
 
 If you'd like to compare your current environment's performance to what's available through the {{site.data.keyword.powerSys_notm}} service, see the [IBM Power Systems performance report](https://www.ibm.com/downloads/cas/K90RQOW8){: new_window}{: external}. For a more condensed comparison, see [IBM Power Systems CPW performance data comparison](https://www.itechsol.com/wp-content/uploads/2018/07/IBM-Power-Systems-CPW-Performance-Data-Comparison-P7-vs-P8-vs-P9-rev3-July-2018.pdf){: new_window}{: external}.
 {: tip}

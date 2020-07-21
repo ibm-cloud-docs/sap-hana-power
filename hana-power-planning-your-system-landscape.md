@@ -23,14 +23,14 @@ subcollection: sap-hana-power
 {: #planning-your-system-landscape}
 
 An SAP *landscape* is a group of two or more SAP *systems* that usually include development, quality and test, and production. One SAP system consists of one or more SAP instances and a database (in this case SAP HANA), which are a group of processes that are started and stopped at the same time. For more information about SAP landscapes, see the following documentation:
- * [SAP NetWeaver on IBM Power Systems Virtual Servers colocated and connected with IBM Cloud](/docs/sap-netweaver-power?topic=sap-netweaver-power-getting-started)
+ * [SAP NetWeaver on IBM Power Systems Virtual Servers](/docs/sap-netweaver-power?topic=sap-netweaver-power-getting-started)
  * [SAP on Power Systems Best Practices Guide](https://www-03.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102618){: external} (click the link in the middle of the page)
  * [IBM Power Systems Virtualization Operation Management for SAP Applications](http://www.redbooks.ibm.com/abstracts/redp5579.html?Open){: external}
  * [SAP HANA on IBM Power Systems and IBM System Storage - Guides](http://www-03.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102502){: external}
  * [SAP Note 2903141 - Best practice configuration checks for SAP HANA](https://launchpad.support.sap.com/#/notes/2903141){: external}
 {: shortdesc}
 
-There are several possible landscape configurations for many SAP solutions in the market. These solutions include SAP S/4HANA, SAP Business Suite powered by SAP HANA, SAP NetWeaver-based products with SAP HANA, and all specific SAP solutions, which the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}} support. More solutions to keep in mind are any non-SAP NetWeaver-based SAP solutions and any third-party software that might integrate with SAP. Contact [SAP Support](https://support.sap.com/en/index.html){: external} if you’re planning to deploy non-SAP NetWeaver-based or third-party software in your {{site.data.keyword.cloud}} IaaS landscape.
+There are several possible landscape configurations for many SAP solutions in the market. These solutions include SAP S/4HANA, SAP Business Suite powered by SAP HANA, SAP NetWeaver-based products with SAP HANA, and all specific SAP solutions, which the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s support. More solutions to keep in mind are any non-SAP NetWeaver-based SAP solutions and any third-party software that might integrate with SAP. Contact [SAP Support](https://support.sap.com/en/index.html){: external} if you’re planning to deploy non-SAP NetWeaver-based or third-party software in your {{site.data.keyword.cloud}} IaaS landscape.
 
 You want to be as detailed as possible when you determine the size of your server based on the applications you plan to run, potential growth, and performance. Additionally, keep in mind your storage and memory requirements for your applications. SAP systems in a landscape have specific requirements for connectivity, either among each other or to external systems.
 
