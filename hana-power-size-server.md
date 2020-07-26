@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-17"
+lastupdated: "2020-07-26"
 
 keywords: SAP HANA, SAP Application Performance Standard, SAPS, SAP Quick Sizer
 
@@ -44,7 +44,7 @@ While the sizing method might be considered conservative, consider the fact that
 
 After you determine your SAP applications and the SAPS numbers are calculated through the SAP Quick Sizer, or based on your current landscape, you are ready to choose a server. Currently, e980 is the only supported server type. The list of supported server types will be extended in [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850).
 
-## Mapping CPUs derived from SAPS to instance profiles in a {{site.data.keyword.powerSys_notm}}s environment
+## Mapping CPUs derived from SAPS to instance profiles in a Power Systems Virtual Servers environment
 {: #mapping-cpus}
 
 The SAPS results from the sizing, and the choice of the server results in the number of CPUs and memory size that are required to support your workload. The number of CPUs and memory are grouped into instance profiles that are certified for the SAP HANA workload. To find certified profiles, see [Find Certified IaaS Platforms](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/iaas.html){: external}.
@@ -52,7 +52,21 @@ The SAPS results from the sizing, and the choice of the server results in the nu
 * [Click here](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/iaas.html#categories=IBM%20Cloud){: external} to find certified profiles for {{site.data.keyword.cloud}}.
 * [Click here](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: external} to find certified profiles for {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}}s. 
 
-When you create a {{site.data.keyword.powerSys_notm}} by using the {{site.data.keyword.cloud}} console, you select an instance profile with a predefined number of CPUs and memory size that suits your workload. While your data must fit into the instance memory, choosing an instance profile with more CPUs improves performance. For more information, see [Creating a {{site.data.keyword.powerSys_notm}}](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server).
+When you create a {{site.data.keyword.powerSys_notm}} by using the {{site.data.keyword.cloud}} console, you select an instance profile with a predefined number of CPUs and memory size that suits your workload. While your data must fit into the instance memory, choosing an instance profile with more CPUs improves performance. Instances are structured with a standardized naming convention as follows: `AAA-BBxCCCC`
+
+Where:
+
+`AAA` = One of the following profile types that are associated with the required Service Level Agreements (SLAs):
+
+* `npd` = Non-Product Development for testing or development use only, using 480:1 memory:core ratios. Not intended for production deployments; not supported or certified by SAP production.
+* `umh` = Ultra Memory HANA for OLTP using 240:1 memory:core ratios  
+* `mh1` = High Memory for OLAP using 180:1 memory:core ratios  
+* `bh1` = Balanced for OLAP using 100:1 memory:core ratios  
+* `ch1` = Compute Intensive for OLAP using 50:1 memory:core ratios  
+
+`BB` = The number of CPU cores
+
+`CCCC` = The amount of available reserved RAM memory in GB
 
 
 ## Migrating an existing SAP system
