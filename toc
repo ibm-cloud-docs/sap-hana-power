@@ -34,7 +34,7 @@ SAP HANA on IBM Power Systems Virtual Servers
         hana-power-check-system-readiness.md
 
         {: .topicgroup}
-        Configuring your system for SAP NetWeaver workloads
+        Configuring your system for SAP HANA workloads
             hana-power-configure-workload.md
             hana-power-create-file-systems.md
 
