@@ -58,7 +58,7 @@ Where:
 
 `AAA` = One of the following profile types that are associated with the required Service Level Agreements (SLAs):
 
-* `npd1` = Non-Product Development for testing or development use only. Not intended for production deployments; not supported or certified by SAP production.
+* `np1` = Non-product development for testing or development use only. Not intended for production deployments; not supported or certified by SAP production.
 * `umh` = Ultra Memory HANA for OLTP using 240:1 memory:core ratios  
 * `mh1` = High Memory for OLAP using 180:1 memory:core ratios  
 * `bh1` = Balanced for OLAP using 100:1 memory:core ratios  
