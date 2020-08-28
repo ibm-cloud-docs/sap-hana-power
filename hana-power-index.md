@@ -24,6 +24,8 @@ subcollection: sap-hana-power
 {{site.data.keyword.IBM}} and SAP continue a collaboration since the early 1970s in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP HANA-based applications on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s.
 {: shortdesc}
 
+{{site.data.keyword.powerSys_notm}} is a Power Systems enterprise infrastructure as a service (IaaS) offering. {{site.data.keyword.powerSys_notm}}s are physically located with low-latency connectivity to the IBM Cloud&trade; Infrastructure. This infrastructure design enables {{site.data.keyword.powerSys_notm}}s to maintain key enterprise software certification and support as its architecture is identical to certified on-premises infrastructure.
+
 This content provides you with recommendations for the provisioning and installation of the infrastructure to support SAP HANA-based products and subscription on {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s. It does not replace any SAP HANA implementation-related documentation. Its purpose is to help you with infrastructure planning and provisioning so you can begin your SAP installation. The SAP HANA installation does not vary from installations for on-premises environments. Recommendations and guidelines are provided to help you operate your SAP system in the {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} environment.
 
 ## Before you begin
@@ -54,7 +56,7 @@ Before you create a virtual server, you must understand the terminology that is 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s versus {{site.data.keyword.cloud}} classic infrastructure
 {: #cloud-vs-classic}
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s is a Power Systems infrastructure as a service (IaaS) offering. {{site.data.keyword.powerSys_notm}}s are located in the same {{site.data.keyword.IBM_notm}} data centers as the Intel-based {{site.data.keyword.cloud_notm}} servers, which are referred to as {{site.data.keyword.cloud}} classic infrastructure. In the data centers, the {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s are separated from the rest of the {{site.data.keyword.cloud_notm}} servers with separate networks and storage. The internal networks are fenced and can be connected to the outside (classic infrastructure or on-premises environments) through {{site.data.keyword.dlc_full}}.
+{{site.data.keyword.powerSys_notm}}s are located in the same IBM data centers as the x86-based IBM Cloud servers, which are referred to as [IBM Cloud classic infrastructure](/docs/cloud-infrastructure?topic=cloud-infrastructure-compare-infrastructure). In the data centers, the {{site.data.keyword.powerSys_notm}}s are separated from the rest of the IBM Cloud servers with separate networks and direct-attached storage. The internal networks are fenced but offer connectivity options to IBM Cloud infrastructure or on-premises environments.
 
 ### Resource versus resource group
 {: resource-versus-group}
