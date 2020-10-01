@@ -36,7 +36,7 @@ Currently, Power System E980 is supported for SAP HANA.
 ## Operating systems
 {: #os-considerations}
 
-For the Linux&reg; versions to deploy for SAP HANA, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. An SAP S-user ID is required to access the SAP Note. Licensing for Linux is covered by client's "bring your own license" model.
+For the Linux&reg; versions to deploy for SAP HANA, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. An SAP S-user ID is required to access the SAP Note. Licensing for Linux is covered by client's BYOL (bring your own license) model.
 
 ## Network connectivity
 {: #network_connectivity}
@@ -70,7 +70,7 @@ Other ports are blocked and can be routed through SSH. For security reasons, usi
 ### Network requirements for SAP
 {: #network_requirements_sap}
 
-When you configure SAP systems with SAP HANA as the database, the following network types are required for the usage scenarios described below:
+When you configure SAP systems with SAP HANA as the database, the following network types are required for the described usage scenarios:
 * Internal network for communication between multiple instances in SAP three-tier systems
 * Network for the management of SAP HANA-based systems
 * Network that is used in production

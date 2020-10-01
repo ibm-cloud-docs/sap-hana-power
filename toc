@@ -43,6 +43,34 @@ SAP HANA on IBM Power Systems Virtual Servers
         hana-power-download-and-install.md
         hana-power-create-license-key.md
         hana-power-monitoring.md
+
+    {: .topicgroup}
+    Deployment considerations
+
+        {: .topicgroup}
+        Network and connectivity
+            /sap-netweaver-power/sap-netweaver-power-jump_server
+            /sap-netweaver-power/sap-netweaver-power-adding_routes
+            hana-power-ntp-time-server-configuration.md
+            /sap-netweaver-power/sap-netweaver-power-ssh_tunneling
+
+        {: .topicgroup}
+        Provisioning  
+            hana-power-disk-provisioning-and-layout.md
+            hana-power-disk-discovery-and-storage-setup.md
+
+        {: .topicgroup}
+        Linux configuration
+            hana-power-checking-the-multipathd.md
+            hana-power-network-and-adapter-configurations.md
+            hana-power-hostname-verification.md
+            hana-power-registering-the-system.md
+            hana-power-using-saptune.md
+            hana-power-numa-layout.md
+
+        hana-power-installing-sap-hana.md
+        hana-power-information-resources.md
+
     {: .navgroup-end}
 
     {: .navgroup id="help"}
