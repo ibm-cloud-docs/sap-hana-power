@@ -70,7 +70,6 @@ SAP HANA on IBM Power Systems Virtual Servers
 
         hana-power-installing-sap-hana.md
         hana-power-information-resources.md
-
     {: .navgroup-end}
 
     {: .navgroup id="help"}
